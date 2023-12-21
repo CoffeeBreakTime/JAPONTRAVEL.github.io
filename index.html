@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link href="proyecto.css" rel="stylesheet" type="text/css"/>
+		<title>JAPÓN TRAVEL</title>
+</head>
+	<body>
+		<div class="menu">
+		<h1><a class="style" href="./index.html">JAPÓN TRAVEL</a></h1>
+		<ul>
+			<li>Destino</li>
+			<li>Hotel</li>
+			<li><a href="./TerceraPagina.html">Sobre JAPÓN</a></li>
+			<li>Opiniones</li>
+			<li>Contacto</li>
+			<li><a href="./YourFirstProject.pdf">Diseño</a></li>
+		</ul>
+		</div>
+	
+	<div class="img">
+		<img src="imagen.jpeg" alt="imagen de japón"></img>
+	</div>
+	<div class="contenedor">
+	<div class="form">
+		<form action="procesar.php" method="get">
+		<fieldset style="width:300px">
+			<legend>Preferencia de tu viaje</legend>
+		<p><label for="viaje">Fecha de Viaje:</label></p>
+		<input id="viaje" type="date" name="Fecha de Viaje"><br>
+		
+			<p>Lugar de origen</p>
+		<select name="lugar de origen">
+			<option value=""></option>
+			<option value="Madrid">Madrid</option>
+			<option value="Málaga">Málaga</option>
+			<option value="Sevilla">Sevilla</option>
+			<option value="Barcelona">Barcelona</option>
+			<option value="Valencia">Valencia</option>	
+		</select>
+		
+			<p>Lugar de destino</p>
+		<select name="lugar de destino">
+			<option value=""></option>
+			<option value="Tokyo">Tokyo</option>
+			<option value="Osaka">Osaka</option>
+			<option value="Kyoto">Kyoto</option>
+			<option value="Sapporo">Sapporo</option>
+			<option value="Fukuoka">Fukuoka</option>
+			<option value="Okinawa">Okinawa</option>
+		</select>
+		
+			<p>Tipo de alojamiento</p>
+		<select name="Tipo de alojamiento">
+			<option value=""></option>
+			<option value="Hotel">Hotel</option>
+			<option value="Ryokan">Ryokan</option>
+			<option value="Hostal">Hostal</option>
+			<option value="Otros">Otros</option>
+		</select>
+			
+		<p><label for="budget">Prespuesto máximo:</label></p>
+		<input id="budget" type="number" name="prespuesto" min="1000" max="15000" step="1000" value="1000">
+		
+		<p>Número de personas</p>
+		<select name="Número de personas">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="Más de 4">Más de 4</option>
+		</select>
+		
+		<div class="botton">
+		<p><input class="btn" type="button" onclick="alert('JAPÓN TRAVEL!')" value="BUSCAR"></p>	
+		</div>	
+
+		</fieldset>
+		</form>
+	</div>
+	
+	<div class="lugares">
+		<h2><a class="style2" href="./SegundaPagina.html">Lugares populares de Japón</a></h2>
+		<ol>
+			<li class="titulo">TOKYO</li>
+				<ul class="exp">
+				<li>El centro de los grandes negocios te sorprende con rincones de encanto retro, 
+				inmensos jardines y el mercado de pescado más activo del mundo.</li>
+				<li>Alrededor de la estación Tokyo y el Palacio Imperial, el centro de la ciudad ha sido 
+				siempre la sede del poder político y económico. Goza de una atmósfera de confianza y elegancia,
+				 desde las calles de elegantes tiendas de Ginza al histórico distrito geisha de Kagurazaka.
+				 Referencia a https://www.gotokyo.org/es/destinations/central-tokyo/index.html</li>
+				</ul>
+			<li class="titulo">OSAKA</li>
+				<ul class="exp">
+				<li>Osaka es una ciudad relajada y llena de encanto, famosa por su gastronomía, 
+				ocio y vida nocturna, pero en la que también tienen cabida la historia y la cultura.
+				Osaka está cerca de Tokio en tren bala, pero tiene una personalidad muy diferente a la 
+				de la capital japonesa. Bájate del tren bala y descubre una zona con una animada vida 
+				nocturna, una gastronomía deliciosa y habitantes simpáticos y abiertos. 
+				Además de un montón de tiendas y atracciones modernas, en Osaka también hay lugares de 
+				interés histórico, entre los que destaca el Castillo de Osaka, donde conocerás la 
+				historia japonesa y podrás pasear por sus jardines, especialmente hermosos durante la 
+				época de floración de los cerezos en abril. 
+				Referencia a https://www.japan.travel/es/destinations/kansai/osaka/</li>
+				</ul>
+			<li class="titulo">KYOTO</li>
+				<ul class="exp">
+				<li>Explora la rica historia y las tradiciones culturales de Japón en el corazón de Kioto.</li>
+				<li>Kioto fue la capital de Japón y la residencia del emperador durante más de 1000 años. 
+				En la actualidad, alberga algunas de las atracciones más populares del país. 
+				Muchas de ellas, como Kyoto Gosho y el Castillo Nijo , se encuentran en el corazón de 
+				la ciudad. Puedes pasar varias horas explorando el centro de Kioto y ver algunos de 
+				los monumentos más emblemáticos de Japón.</li>
+				</ul>
+		</ol>
+	</div>
+	</div>	
+	<div class="pie">
+		<ul>
+			<li>Sobre nosotros</li>
+			<li>Política de privacidad</li>
+			<li>Condiciones de reserva</li>
+			<li>Sobre nosotros</li>
+			<li>Contacto</li>
+		</ul>
+
+	</div>	
+	</body>
+
+</html>
