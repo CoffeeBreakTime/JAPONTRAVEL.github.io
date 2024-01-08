@@ -47,7 +47,7 @@ legend{
 }
 
 .exp{
-    color:#696969;
+    color:red;
 }
 
 .menu ul{
@@ -81,7 +81,6 @@ legend{
 
 ol ul li{
     list-style: none;
-    color:red;
 }
 
 img{
